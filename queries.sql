@@ -18,3 +18,5 @@ ORDER BY driver_id, segment_id DESC, segment_end_time ASC
 
 
 
+SELECT * FROM route_segments
+order by driver_id, segment_id, segment_end_time
